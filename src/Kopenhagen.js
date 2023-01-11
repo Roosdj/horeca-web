@@ -26,9 +26,10 @@ export default function Kopenhagen() {
             <a href="https://ancestrale.dk/" target="_blank" rel="noreferrer">
               Ancetrale
             </a>
-            <span className="mouseMoveText">
-              Hier komt de beoordeling van het restaurant
-            </span>
+            <div className="mouseMoveText">
+              <img src={frank} alt="oysters-frank" />
+              <span>Hier komt de beoordeling van het restaurant</span>
+            </div>
           </li>
           <li className="mouseMove">
             <a
@@ -40,32 +41,36 @@ export default function Kopenhagen() {
             </a>
             <div className="mouseMoveText">
               <img src={frank} alt="oysters-frank" />
-              Hier komt de beoordeling van het restaurant
+              <span>Hier komt de beoordeling van het restaurant</span>
             </div>
           </li>
           <li className="mouseMove">
             <a href="./">Gasoline Grill</a>
-            <span className="mouseMoveText">
-              Hier komt de beoordeling van het restaurant
-            </span>
+            <div className="mouseMoveText">
+              <img src={frank} alt="oysters-frank" />
+              <span>Hier komt de beoordeling van het restaurant</span>
+            </div>
           </li>
           <li className="mouseMove">
             <a href="./">Lille Petra café</a>
-            <span className="mouseMoveText">
-              Hier komt de beoordeling van het restaurant
-            </span>
+            <div className="mouseMoveText">
+              <img src={frank} alt="oysters-frank" />
+              <span>Hier komt de beoordeling van het restaurant</span>
+            </div>
           </li>
           <li className="mouseMove">
             <a href="./">Pluto</a>
-            <span className="mouseMoveText">
-              Hier komt de beoordeling van het restaurant
-            </span>
+            <div className="mouseMoveText">
+              <img src={frank} alt="oysters-frank" />
+              <span>Hier komt de beoordeling van het restaurant</span>
+            </div>
           </li>
           <li className="mouseMove">
             <a href="./">Raw42</a>
-            <span className="mouseMoveText">
-              Hier komt de beoordeling van het restaurant
-            </span>
+            <div className="mouseMoveText">
+              <img src={frank} alt="oysters-frank" />
+              <span>Hier komt de beoordeling van het restaurant</span>
+            </div>
           </li>
         </ol>
       </div>

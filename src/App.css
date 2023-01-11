@@ -21,7 +21,7 @@ li {
 a {
   text-decoration: none;
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 22px;
 }
 
 a:hover {
@@ -31,6 +31,12 @@ a:hover {
 img {
   width: 100px;
   height: 100px;
+}
+
+span {
+  margin: 20px;
+  position: relative;
+  top: -82px;
 }
 
 .mouseMove .mouseMoveText {
