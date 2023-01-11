@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import frank from "./images/frank.png";
 
 export default function Kopenhagen() {
   const [list, setList] = useState("false");
@@ -19,6 +20,7 @@ export default function Kopenhagen() {
         <a href="/" onClick={showList}>
           Kopenhagen
         </a>
+
         <ol>
           <li className="mouseMove">
             <a href="https://ancestrale.dk/" target="_blank" rel="noreferrer">
@@ -37,8 +39,8 @@ export default function Kopenhagen() {
               Frank
             </a>
             <div className="mouseMoveText">
+              <img src={frank} alt="oysters-frank" />
               Hier komt de beoordeling van het restaurant
-              <img src="/images/frank.png" alt="oysters-frank" />
             </div>
           </li>
           <li className="mouseMove">

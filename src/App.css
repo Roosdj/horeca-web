@@ -28,6 +28,11 @@ a:hover {
   color: var(--secundairy-color);
 }
 
+img {
+  width: 100px;
+  height: 100px;
+}
+
 .mouseMove .mouseMoveText {
   display: none;
   font-style: italic;
