@@ -20,23 +20,50 @@ export default function Kopenhagen() {
           Kopenhagen
         </a>
         <ol>
-          <li>
-            <a href="./">Frank</a>
+          <li className="mouseMove">
+            <a href="https://ancestrale.dk/" target="_blank" rel="noreferrer">
+              Ancetrale
+            </a>
+            <span className="mouseMoveText">
+              Hier komt de beoordeling van het restaurant
+            </span>
           </li>
-          <li>
-            <a href="./">Pluto</a>
+          <li className="mouseMove">
+            <a
+              href="https://restaurantfrank.dk/frank/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Frank
+            </a>
+            <div className="mouseMoveText">
+              Hier komt de beoordeling van het restaurant
+              <img src="/images/frank.png" alt="oysters-frank" />
+            </div>
           </li>
-          <li>
-            <a href="./">Ancetrale</a>
-          </li>
-          <li>
+          <li className="mouseMove">
             <a href="./">Gasoline Grill</a>
+            <span className="mouseMoveText">
+              Hier komt de beoordeling van het restaurant
+            </span>
           </li>
-          <li>
-            <a href="./">Raw42</a>
-          </li>
-          <li>
+          <li className="mouseMove">
             <a href="./">Lille Petra café</a>
+            <span className="mouseMoveText">
+              Hier komt de beoordeling van het restaurant
+            </span>
+          </li>
+          <li className="mouseMove">
+            <a href="./">Pluto</a>
+            <span className="mouseMoveText">
+              Hier komt de beoordeling van het restaurant
+            </span>
+          </li>
+          <li className="mouseMove">
+            <a href="./">Raw42</a>
+            <span className="mouseMoveText">
+              Hier komt de beoordeling van het restaurant
+            </span>
           </li>
         </ol>
       </div>
