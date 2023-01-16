@@ -21,10 +21,13 @@ export default function Amsterdam() {
         </a>
         <ol>
           <li>
-            <a href="./">Le Mary Celeste</a>
+            <a href="./">Bak</a>
           </li>
           <li>
-            <a href="./">Restaurant X</a>
+            <a href="./">Choux</a>
+          </li>
+          <li>
+            <a href="./">CRADAM</a>
           </li>
         </ol>
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Lissabon() {
+export default function Valencia() {
   const [list, setList] = useState("false");
 
   function showList(event) {
@@ -15,11 +15,14 @@ export default function Lissabon() {
 
   if (list === "true") {
     return (
-      <div className="Lissabon">
+      <div className="Valencia">
         <a href="/" onClick={showList}>
-          Lissabon
+          Valencia
         </a>
         <ol>
+          <li>
+            <a href="./">Oyster Bar</a>
+          </li>
           <li>
             <a href="./">Restaurant X</a>
           </li>
@@ -31,9 +34,9 @@ export default function Lissabon() {
     );
   } else {
     return (
-      <div className="Lissabon">
+      <div className="Valencia">
         <a href="/" onClick={hideList}>
-          Lissabon
+          Valencia
         </a>
       </div>
     );

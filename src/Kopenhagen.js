@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import frank from "./images/frank.png";
+import ancestrale from "./images/ancestrale.png";
 
 export default function Kopenhagen() {
   const [list, setList] = useState("false");
@@ -27,7 +28,7 @@ export default function Kopenhagen() {
               Ancetrale
             </a>
             <div className="mouseMoveText">
-              <img src={frank} alt="oysters-frank" />
+              <img src={ancestrale} alt="oysters-frank" />
               <span>Hier komt de beoordeling van het restaurant</span>
             </div>
           </li>
