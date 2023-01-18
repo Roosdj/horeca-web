@@ -49,6 +49,10 @@ img {
   border-radius: 3px;
 }
 
+img:hover {
+  opacity: 0.8;
+}
+
 p {
   margin: 0px;
   margin-left: 110px;
@@ -59,7 +63,8 @@ p {
 .mouseMove .mouseMoveText {
   display: none;
   font-style: italic;
-  margin-top: 15px;
+  margin: 15px;
+  height: 100px;
 }
 
 .mouseMove:hover .mouseMoveText {
@@ -67,7 +72,4 @@ p {
 }
 
 @media (max-width: 900px) {
-  .mouseMove .mouseMoveText {
-    margin-bottom: -25px;
-  }
 }
