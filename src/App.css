@@ -19,6 +19,16 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  margin: 0px;
+  font-weight: normal;
+  font-size: 22px;
+}
+
+h2:hover {
+  color: var(--secundairy-color);
+}
+
 li {
   list-style: none;
 }
@@ -39,8 +49,9 @@ img {
   border-radius: 3px;
 }
 
-span {
-  margin: 20px;
+p {
+  margin: 0px;
+  margin-left: 110px;
   position: relative;
   top: -82px;
 }
@@ -48,8 +59,15 @@ span {
 .mouseMove .mouseMoveText {
   display: none;
   font-style: italic;
+  margin-top: 15px;
 }
 
 .mouseMove:hover .mouseMoveText {
   display: block;
+}
+
+@media (max-width: 900px) {
+  .mouseMove .mouseMoveText {
+    margin-bottom: -25px;
+  }
 }

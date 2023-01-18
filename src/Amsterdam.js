@@ -29,59 +29,101 @@ export default function Amsterdam() {
         </a>
         <ol>
           <li className="mouseMove">
-            <a href="https://bakrestaurant.nl/">Bak</a>
+            <h2>Bak</h2>
             <div className="mouseMoveText">
-              <img src={bak} alt="restaurant-bak" />
-              <span>Hier komt de beoordeling van het restaurant</span>
+              <a
+                href="https://bakrestaurant.nl/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={bak} alt="restaurant-bak" />
+              </a>
+              <p>Hier komt de beoordeling van het restaurant</p>
             </div>
           </li>
           <li className="mouseMove">
-            <a href="https://www.bellastoria.nl/">Bella Storia</a>
+            <h2>Bella Storia</h2>
             <div className="mouseMoveText">
-              <img src={bellaStoria} alt="restaurant-bella-storia" />
-              <span>Hier komt de beoordeling van het restaurant</span>
+              <a
+                href="https://www.bellastoria.nl/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={bellaStoria} alt="restaurant-bella-storia" />
+              </a>
+              <p>Hier komt de beoordeling van het restaurant</p>
             </div>
           </li>
           <li className="mouseMove">
-            <a href="https://choux.nl/">Choux</a>
+            <h2>Choux</h2>
+
             <div className="mouseMoveText">
-              <img src={choux} alt="restaurant-choux" />
-              <span>Hier komt de beoordeling van het restaurant</span>
+              <a href="https://choux.nl/" target="_blank" rel="noreferrer">
+                <img src={choux} alt="restaurant-choux" />
+              </a>
+              <p>Hier komt de beoordeling van het restaurant</p>
             </div>
           </li>
           <li className="mouseMove">
-            <a href="https://helling7.nl/">Helling 7</a>
+            <h2>Helling 7</h2>
             <div className="mouseMoveText">
-              <img src={helling7} alt="restaurant-helling7" />
-              <span>Hier komt de beoordeling van het restaurant</span>
+              <a href="https://helling7.nl/" target="_blank" rel="noreferrer">
+                <img src={helling7} alt="restaurant-helling7" />
+              </a>
+              <p>Hier komt de beoordeling van het restaurant</p>
             </div>
           </li>
           <li className="mouseMove">
-            <a href="https://restaurantdekas.com/">De Kas</a>
+            <h2>De Kas</h2>
             <div className="mouseMoveText">
-              <img src={kas} alt="restaurant-de-kas" />
-              <span>Hier komt de beoordeling van het restaurant</span>
+              <a
+                href="https://restaurantdekas.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={kas} alt="restaurant-de-kas" />
+              </a>
+              <p>Hier komt de beoordeling van het restaurant</p>
             </div>
           </li>
           <li className="mouseMove">
-            <a href="https://klaproosamsterdam.nl/">Klaproos</a>
+            <h2>Klaproos</h2>
+
             <div className="mouseMoveText">
-              <img src={klaproos} alt="restaurant-klaproos" />
-              <span>Hier komt de beoordeling van het restaurant</span>
+              <a
+                href="https://klaproosamsterdam.nl/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={klaproos} alt="restaurant-klaproos" />
+              </a>
+              <p>Hier komt de beoordeling van het restaurant</p>
             </div>
           </li>
           <li className="mouseMove">
-            <a href="https://ottovolante.nl/">Otto Volante</a>
+            <h2>Otto Volante</h2>
             <div className="mouseMoveText">
-              <img src={ottoVolante} alt="restaurant-otto-volante" />
-              <span>Hier komt de beoordeling van het restaurant</span>
+              <a
+                href="https://ottovolante.nl/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={ottoVolante} alt="restaurant-otto-volante" />
+              </a>
+              <p>Hier komt de beoordeling van het restaurant</p>
             </div>
           </li>
           <li className="mouseMove">
-            <a href="https://www.publicspace.amsterdam/">Public Space</a>
+            <h2>Public Space</h2>
             <div className="mouseMoveText">
-              <img src={publicSpace} alt="restaurant-pulic-space" />
-              <span>Hier komt de beoordeling van het restaurant</span>
+              <a
+                href="https://www.publicspace.amsterdam/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={publicSpace} alt="restaurant-pulic-space" />
+              </a>
+              <p>Hier komt de beoordeling van het restaurant</p>
             </div>
           </li>
         </ol>
