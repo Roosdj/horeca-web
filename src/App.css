@@ -21,6 +21,7 @@ h1 {
 
 h2 {
   margin: 0px;
+  margin-bottom: 10px;
   font-weight: normal;
   font-size: 22px;
 }
@@ -31,6 +32,8 @@ h2:hover {
 
 li {
   list-style: none;
+  display: block;
+  height: auto;
 }
 
 a {
@@ -44,9 +47,10 @@ a:hover {
 }
 
 img {
-  width: 100px;
-  height: 100px;
+  width: 154px;
+  height: 154px;
   border-radius: 3px;
+  margin-bottom: 10px;
 }
 
 img:hover {
@@ -54,22 +58,28 @@ img:hover {
 }
 
 p {
-  margin: 0px;
-  margin-left: 110px;
-  position: relative;
-  top: -82px;
+  /* margin-top: 10px; */
+  margin-bottom: 10px;
 }
 
 .mouseMove .mouseMoveText {
   display: none;
   font-style: italic;
-  margin: 15px;
-  height: 100px;
 }
 
 .mouseMove:hover .mouseMoveText {
   display: block;
+  height: auto;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 576px) {
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    text-align: center;
+  }
 }
