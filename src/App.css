@@ -73,6 +73,14 @@ p {
 }
 
 @media (max-width: 576px) {
+  ol {
+    padding: 0px;
+  }
+
+  li {
+    text-align: center;
+  }
+
   img {
     display: block;
     margin-left: auto;

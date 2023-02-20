@@ -9,7 +9,7 @@ import Valencia from "./Valencia.js";
 export default function App() {
   return (
     <div className="App">
-      <h1> Restaurant Tips</h1>
+      <h1 className="test-greetings"> Restaurant Tips</h1>
       <Amsterdam />
       <Kopenhagen />
       <Lissabon />
